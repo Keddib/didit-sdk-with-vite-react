@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   diditsdktest:
-    specifier: ^2.0.1
-    version: 2.0.1(@types/react@18.2.15)(react-dom@18.2.0)(react@18.2.0)(viem@1.16.6)(wagmi@1.4.5)
+    specifier: ^2.0.3
+    version: 2.0.3(@types/react@18.2.15)(react-dom@18.2.0)(react@18.2.0)(viem@1.16.6)(wagmi@1.4.5)
   localforage:
     specifier: ^1.10.0
     version: 1.10.0
@@ -2063,8 +2063,8 @@ packages:
     resolution: {integrity: sha512-ypdmJU/TbBby2Dxibuv7ZLW3Bs1QEmM7nHjEANfohJLvE0XVujisn1qPJcZxg+qDucsr+bP6fLD1rPS3AhJ7EQ==}
     dev: false
 
-  /diditsdktest@2.0.1(@types/react@18.2.15)(react-dom@18.2.0)(react@18.2.0)(viem@1.16.6)(wagmi@1.4.5):
-    resolution: {integrity: sha512-41JyGI4+8symIw1TStglELH1IWPysw3kgs6E+bWhqkHDzbGLoc3EcydiGsj26musuMBheNQNGLA9TEdP56vglg==}
+  /diditsdktest@2.0.3(@types/react@18.2.15)(react-dom@18.2.0)(react@18.2.0)(viem@1.16.6)(wagmi@1.4.5):
+    resolution: {integrity: sha512-0UNqaX/KSHjLEEKl5FzXQ59hQgHiuZOi/xS00dit1W8SxTT0bL4ieEZVh9RALXUHS3ExFPNMcCrZE82qYWwH9Q==}
     engines: {node: '>=12.4'}
     peerDependencies:
       react: '>=17'
@@ -2080,7 +2080,6 @@ packages:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       react-remove-scroll: 2.5.4(@types/react@18.2.15)(react@18.2.0)
-      usehooks-ts: 2.9.1(react-dom@18.2.0)(react@18.2.0)
       viem: 1.16.6(typescript@5.2.2)
       wagmi: 1.4.5(@types/react@18.2.15)(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)(viem@1.16.6)
     transitivePeerDependencies:
@@ -3735,17 +3734,6 @@ packages:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
       react: 18.2.0
-    dev: false
-
-  /usehooks-ts@2.9.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-2FAuSIGHlY+apM9FVlj8/oNhd+1y+Uwv5QNkMQz1oSfdHk4PXo1qoCw9I5M7j0vpH8CSWFJwXbVPeYDjLCx9PA==}
-    engines: {node: '>=16.15.0', npm: '>=8'}
-    peerDependencies:
-      react: ^16.8.0  || ^17.0.0 || ^18.0.0
-      react-dom: ^16.8.0  || ^17.0.0 || ^18.0.0
-    dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
     dev: false
 
   /utf-8-validate@5.0.10:

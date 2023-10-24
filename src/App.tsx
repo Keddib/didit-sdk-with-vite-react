@@ -50,7 +50,10 @@ function App() {
     <WagmiConfig config={wagmiConfig}>
       <DiditAuthProvider
         authMethods={[DiditAuthMethod.WALLET, DiditAuthMethod.GOOGLE]}
-        baseUrl={import.meta.env.VITE_DIDIT_AUTH_BASE_URL || ''}
+        emailAuthBaseUrl={import.meta.env.VITE_DIDIT_EMAIL_AUTH_BASE_URL || ''}
+        walletAuthBaseUrl={
+          import.meta.env.VITE_DIDIT_WALLET_AUTH_BASE_URL || ''
+        }
         clientId={import.meta.env.VITE_DIDIT_CLIENT_ID || ''}
         claims={import.meta.env.VITE_DIDIT_CLAIMS}
         scope={import.meta.env.VITE_DIDIT_SCOPE || ''}
